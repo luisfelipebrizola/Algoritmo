@@ -1,11 +1,11 @@
-algoritmo "EX013"
-var
-S, A, NS:real
-inicio
-escreva("Informe seu salário: ")
-leia(S)
-A <- ((15/100)*S)
-NS <- S+A
-escreva ("Com o aumento de 15%, seu salário fica em " , NS)
+  algoritmo "EX012"
+  var
+  V, D, VP:real
+  inicio
+  escreva ("Informe o valor do produto: ")
+  leia (V)
+  D <- ((5/100)*V)
+  VP <- V-D
+  escreva("O produto tem 5% de desconto! Então de " , V , ", está saindo por " , VP )
 
-fimalgoritmo
+  fimalgoritmo
