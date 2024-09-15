@@ -35,7 +35,7 @@ inicio
       senao
            escreval("------------")
            escreval(cancelado)
-      
+
       fimse
 
 
